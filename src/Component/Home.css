@@ -1,0 +1,53 @@
+.home-image{
+    width: 100%;
+    height: 500px;
+    background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2019/02/24211315/0f4be43c4171da2bfcd53c97632fc0c8c1c86f858206393bcf7598f2b2ac6da7-770x443.jpg');
+    background-size: cover;
+    margin-bottom: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.home-image:hover{
+    background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2019/02/24175252/918a6250c35ca34ce69592ed53e293670d051a7f985b6464a7e3c8531e5b0672-770x443.jpg');
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+.main-content{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.main-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.thumbnail-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.home-thumbnail{
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+}
+.home-thumbnail:hover{
+    transform: scale(1.06);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#t1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTC7ison9sDC6khPtpce9na5jfmUXJkaztd2nkcYPLaV9ZC_rbt');
+}
+
+#t2{
+    background-image: url('https://www.billboard.com/files/styles/article_main_image/public/media/Bradley-Cooper-and-Lady-Gaga-2019-oscars-show-03-billboard-1548.jpg');
+}
+
+#t3{
+    background-image: url('https://pmcvariety.files.wordpress.com/2019/02/oscar-acting-winners.jpg');
+}

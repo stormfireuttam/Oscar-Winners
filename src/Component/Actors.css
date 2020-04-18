@@ -1,0 +1,29 @@
+.actors-container{
+    display: inline-block;
+    text-align: center;
+}
+.actor-image{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+.actor-image:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.back{
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid lightgrey;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: rgb(149,216,238);
+    text-decoration: none;
+}
